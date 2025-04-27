@@ -26,4 +26,6 @@ public interface GameEntity {
      * Sets whether this entity is visible on the map.
      */
     void setVisible(boolean visible);
+
+    boolean isVisible();
 }
